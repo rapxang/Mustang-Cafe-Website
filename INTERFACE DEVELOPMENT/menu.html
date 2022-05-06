@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSTANG CAFE MENU</title>
+    <!--========== BOX ICONS / GOOGLE FONTS ==========-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/menustyle.css">
+</head>
+
+<body>
+     <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="Logo of Mustang Cafe" width="60px"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#special" class="nav__link">Special</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="menu.html" class="nav__link active-link">Menu</a></li>
+                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact Us</a></li>
+                        <li class="nav__item"><a href="reservation.html" class="nav__link">Reservation</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+               
+            </nav>
+        </header>
+
+         <!--========== FOOD MENU  ==========-->
+            <div class="food-menu">
+                <h1>
+                    What will <span class="primary-color">you</span> eat today?
+                </h1>
+                <p>
+                    Mustang Cafe serves you with the quality food items at a reasonable price. Please discover the menu and try out the specials and amazing dishes.<br> We are at your service!
+                </p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll">
+                        <button class="active" data-food-type="all">
+                         Foods
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-2">
+                        <button data-food-type="Burgers">
+                            Burgers
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button data-food-type="Pizzas">
+                            Pizzas
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-6">
+                        <button data-food-type="Sandwiches">
+                            Sandwiches
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="Steaks">
+                            Steaks
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="Soups">
+                            Soups
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="Salads">
+                            Salads
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="Drinks">
+                             Drinks/Shakes
+                        </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-8">
+                        <button data-food-type="Cakes">
+                            Cakes/IceCreams
+                        </button>
+                    </div>
+                </div>
+
+                <div class="food-item-wrap all">
+                    <div class="food-item Burgers-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Beef Burger.jpg" alt="Beef Burger"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Beef Burger
+                                    </h3>
+                                    <span>
+                                        <h4>Rs.350</h4>
+                                    </span>
+                                </div>
+                                <p>Life is too short to miss out on the beautiful things like a double Beef Burger!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="food-item Pizzas-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Pizza.jpg" alt="Veg Pizza"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Veg Pizzas
+                                    </h3>
+                                    <span>
+                                       <h4>Rs.200.00</h4>
+                                    </span>
+                                </div>
+                                <p>“My love is pizza shaped. Won’t you have a slice? It’s circular, so there’s enough to go around.”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Sandwiches-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Sandwitches.jpg" alt="Veg Sandwich">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Veg Sandwich
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.120.00<h4>
+                                    </span>
+                                </div>
+                                <p>You can make any meal into a sandwich, and any sandwich into a meal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Steaks-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Steak.jpg" alt="Beef Steak"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Beef Steaks
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.450.00</h4>
+                                    </span>
+                                </div>
+                                <p>There are lots of ways you can play with "meet" vs "meat".
+                                Try the taste of the real "Beef!" </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="food-item Soups-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Veg Soup.jpg" alt="Veg Soup"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Veg Soups
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.120.00</h4>
+                                    </span>
+                                </div>
+                                <p>“Soup is the song of the hearth... and the home.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Burgers-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Chicken Burger.jpg" alt="Chicken Burger"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Chicken Burger
+                                    </h3>
+                                    <span>
+                                         <h4>Rs.250.00</h4>
+                                    </span>
+                                </div>
+                                <p>"A balanced diet is a Chicken Burger in each hand!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Salads-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Salads.jpg" alt="Veg Salad"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Veg Salads
+                                    </h3>
+                                    <span>
+                                         <h4>Rs.120.00-Rs-300.00</h4>
+                                    </span>
+                                </div>
+                                <p>“Salad, I can't bear salad. It grows while you're eating it, you know.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Sandwiches-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Fish Sandwich.jpg" alt="Fish Sandwich"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                       Fish Sandwich
+                                    </h3>
+                                    <span>
+                                         <h4>Rs-200.00</h4>
+                                    </span>
+                                </div>
+                                <p>“Too few people understand a really good sandwich.”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Pizzas-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Sicilian Pizza.jpg" alt="Sicilian Pizza"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                       sicilian pizza
+                                    </h3>
+                                    <span>
+                                         <h4>Rs.650.00</h4>
+                                    </span>
+                                </div>
+                                <p>“Pizza is not a 'trend' it's a way of life!”</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="food-item Drinks-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Shakes.jpg" alt="Shakes"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Shakes
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.80.00-Rs-250.00</h4>
+                                    </span>
+                                </div>
+                                <p>Just want someone cute to drink milkshakes with? Try out our variety of Shakes and Soft drinks!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Cakes-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Doughnuts.jpg" alt="Doughnuts"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Doughnuts
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.120.00-Rs.500.00</h4>
+                                    </span>
+                                </div>
+                                <p>A bite of deliciousness. Fill your mouth with delicious Doughnuts!</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="food-item Burgers-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Cheese Burger.jpg" alt="Chicken Burger"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Cheese Burger
+                                    </h3>
+                                    <span>
+                                        <h4>Rs.200.00</h4>
+                                    </span>
+                                </div>
+                                <p>Don’t be sad… we live in a world with cheeseburgers.<br>
+                                Say Cheese(Burgers)!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Pizzas-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Pizza Margherita.jpg" alt="Pizza Margherita"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Pizza Margherita
+                                    </h3>
+                                    <span>
+                                       <h4>Rs.450</h4>
+                                    </span>
+                                </div>
+                                <p>“My love is pizza shaped. Won’t you have a slice? It’s circular, so there’s enough to go around.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Sandwiches-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Chicken Sandwich.jpg" alt="Chicken Sandwich"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                       Chicken Sandwich
+                                    </h3>
+                                    <span>
+                                        <h4> Rs-200.00</h4>
+                                    </span>
+                                </div>
+                                <p>“Sandwiches are wonderful. You don't need a spoon or a plate!”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Steaks-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Yak Steak.jpg" alt="Yak Steak"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Yak Steaks
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.900.00</h4>
+                                    </span>
+                                </div>
+                                <p>There are lots of ways you can play with "meet" vs "meat".
+                                Please try out the Gem of the cafe "Yak Steak". </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Drinks-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Soft Drinks.jpg" alt="Soft Drinks"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Soft Drinks
+                                    </h3>
+                                    <span>
+                                       <h4> Rs.100.00</h4>
+                                    </span>
+                                </div>
+                                <p>A cold drink is the answer to most problems.!</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="food-item Soups-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Chicken Soup.jpg" alt="Chicken Soup"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Chicken Soups
+                                    </h3>
+                                    <span>
+                                        <h4>Rs.200.</h4>
+                                    </span>
+                                </div>
+                                <p>“Chicken Soup is the song of the hearth... and the home.”</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-item Salads-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Fruit Salad.jpg" alt="Fruit Salad"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                         Fruit Salads
+                                    </h3>
+                                    <span>
+                                         <h4>Rs.200.00-Rs-500.00</h4>
+                                    </span>
+                                </div>
+                                <p>“Salad, I can't bear salad. It grows while you're eating it, you know.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Cakes-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Ice Creams.jpg" alt="Ice Creams"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Ice-Creams
+                                    </h3>
+                                    <span>
+                                      <h4>  Rs.120.00-Rs.500.00</h4>
+                                    </span>
+                                </div>
+                                <p>You can't buy happiness but you can buy Ice Creams. And that's kind of a same thing! </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item Cakes-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder bg-img"><img src="assets/img/Cakes.jpg" alt="Cakes"></div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>
+                                        Cakes
+                                    </h3>
+                                    <span>
+                                        <h4>Rs.120.00-Rs.500.00</h4>
+                                    </span>
+                                </div>
+                                <p>A bite of deliciousness. Fill your mouth with delicious cakes !</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    
+    <!-- JAVA SCRIPT -->
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+
+     <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="index.html" class="nav__logo" name="logo"><img src="assets/img/logo.png" alt="Logo of Mustang Cafe" width="90px"></a>
+                    <span class="footer__description">Cafe</span>
+                    <div>
+                        <a href="https://www.facebook.com/kunga.tseten.143" aria-label="facebook" target="_blank" class="footer__social" name="facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/rapxang/" aria-label="instagram" target="_blank" class="footer__social" name="instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://ads.twitter.com/onboarding/18ce55ecuor/welcome" aria-label="Twitter" target="_blank" class="footer__social" name="twitter"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#footer" class="footer__link" name="No-Delivery">No-Delivery</a></li>
+                        <li><a href="#menu" class="footer__link" name="Reasonable Pricing">Reasonable Pricing</a></li>
+                        <li><a href="#about" class="footer__link" name="Excellent & Fast Food">Excellent & Fast food</a></li>
+                        <li><a href="reservation.html" class="footer__link" name="Reservation">Reserve your spot</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="index.html" class="footer__link" name="Event">Event</a></li>
+                        <li><a href="#contact" class="footer__link" name="Contact">Contact us</a></li>
+                        <li><a href="https://www.termsfeed.com/blog/privacy-policies-vs-terms-conditions/" target="_blank" class="footer__link" name="Privacy policy">Privacy policy</a></li>
+                        <li><a href="https://termify.io/terms-of-service-generator?gclid=Cj0KCQjwvYSEBhDjARIsAJMn0lgyuSBhL6kukO3x-NJhNjcvjVudD-tQK6JFPI-4Ide0sCAEf1aI-X4aAs5kEALw_wcB" target="_blank" class="footer__link" name="Terms & Conditions">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Swoyambhu-Kathmandu</li>
+                        <li>mustangcafe@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 KungaNyimaCode. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
